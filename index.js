@@ -5,9 +5,8 @@ const tokenfile = require("./tokenfile.json");
 const token = tokenfile.token;
 const ms = require("ms")
 const fs = require("fs")
-const ytdl = require("ytdl-core")
-const {YTSearcher} = require('ytsearcher')
-const ytpl = require("ytpl")
+
+
 const quenue = new Map()
   let boolebot = true;
   let boolewarn = true;   
