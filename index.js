@@ -2,7 +2,7 @@ const botconfig = require("./botconfig.json");
 const Discord = require("discord.js");
 const strftime = require('strftime')
 const tokenfile = require("./tokenfile.json");
-const token = tokenfile.token;
+const token = process.env.token;
 const ms = require("ms")
 const fs = require("fs")
 
